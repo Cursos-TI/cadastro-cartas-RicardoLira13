@@ -29,8 +29,6 @@ int main() {
     scanf("%d", &turismo1);
     
     //codigos de exibição do que o usuario digitou (primeira carta).
-    printf("\nCarta 1:\n");
-
     printf("Estado: %c\nCodigo: %s\nNome da cidade: %s\nPopulação: %d\nArea: %f\nPIB: %f\nNumero de pontos turisticos: %d\n", inicial1, codigo1, cidade1, populacao1, km1, pib1, turismo1);
 
    
