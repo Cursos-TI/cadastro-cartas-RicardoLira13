@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+
     //declaração de variaveis
     char letra, letra2;
     char codigo[5], codigo2[5];
@@ -27,7 +28,7 @@ int main() {
     printf("Area(Km²): ");
     scanf("%f", &quilometro);
 
-    printf("PIB: ");
+    printf("PIB (bilhões): ");
     scanf("%f", &pib);
 
     printf("Numero de pontos turisticos: ");
@@ -55,6 +56,7 @@ int main() {
     
     printf("Numero de pontos turisticos: ");
     scanf("%d", &ponto2);
+    
     //comando de saida das duas cartas
     printf("\n*Carta 1*\n");
     printf("Estado: %c\n", letra);
