@@ -64,25 +64,25 @@ int main() {
     densidade2 = populacao2 / quilometro2;
     
 	percapita = pib / populacao;
-	percapita = pib2 / populacao2;
+	percapita2 = pib2 / populacao2;
      
     //comando de saida das duas cartas
     printf("\n*Carta 1*\n");
     printf("Estado: %c\n", letra);
     printf("Codigo: %s\n", codigo);
     printf("Nome da cidade: %s\n", cidade );
-    printf("População: %d\n", populacao);
+    printf("População: %f\n", populacao);
     printf("Área: %f\n", quilometro);
     printf("PIB: %f Bilhões de reais\n", pib);
     printf("Numero de pontos turisticos: %d\n", ponto);
     printf("Densidade Populacional: %.2f\n", densidade);
-    printf("PIB percapita: %.2f\n", percapita);
+    printf("PIB percapita: %.2f\n\n", percapita);
    
     printf("*Carta 2*\n");
     printf("Estado: %c\n", letra2);
     printf("Codigo: %s\n", codigo2);
     printf("Nome da cidade: %s\n", cidade2);
-    printf("População: %d\n", populacao2);
+    printf("População: %f\n", populacao2);
     printf("Área: %f\n", quilometro2);
     printf("PIB: %f Bilhões de reais\n", pib2);
     printf("Numero de pontos turisticos: %d\n", ponto2);
