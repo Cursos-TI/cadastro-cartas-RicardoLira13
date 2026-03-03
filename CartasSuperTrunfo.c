@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main() {
+	
+	setlocale(LC_ALL, "portuguese");
 
     //declaração de variaveis
     char letra, letra2;
@@ -107,7 +110,7 @@ int main() {
     printf("Codigo: %s\n", codigo2);
     printf("Nome da cidade: %s\n", cidade2);
     printf("População: %u\n", populacao2);
-    printf("Área: %.2f\n", quilometro2);
+    printf("Área: %f\n", quilometro2);
     printf("PIB: %.2lf Bilhões de reais\n", pib2);
     printf("Numero de pontos turisticos: %d\n", ponto2);
     printf("Densidade Demografica: %.2f\n", densidade2);
@@ -123,6 +126,18 @@ int main() {
 	printf("Densidade Populacional: Carta 2 venceu (%d)\n", comparativoDensidade);
 	printf("PIB per Capita: Carta 1 venceu (%d)\n", comparativoPercapita);
 	printf("Super Poder: Carta 1 venceu (%d)\n\n", comparativoPoder);
+	
+	//comparação de atributos usando if 
+	printf("Comparação de cartas (Atributo SuperPoder)\n");
+	printf("Poder da Carta 1: %.2f\n", superpoder1);
+	printf("Poder da Carta 2: %.2f\n", superpoder2);
+	
+	if (superpoder1 > superpoder2){
+		printf("Resultado: Carta 1 venceu!\n\n");
+	}
+	else{
+		printf("Resultado: Carta 2 venceu!\n\n");
+	}
 
     return 0;
 } 
